@@ -20,6 +20,7 @@ const analyticsRoutes = require('./routes/analytics');
 const mapRoutes = require('./routes/map');
 
 const app = express();
+app.set('trust proxy', 1);
 const server = http.createServer(app);
 
 // Socket.IO with CORS

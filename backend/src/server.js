@@ -24,7 +24,11 @@ const server = http.createServer(app);
 
 // Socket.IO with CORS
 const io = new Server(server, {
-  cors: { origin: env.frontendUrl, methods: ['GET', 'POST', 'PATCH', 'DELETE'], credentials: true },
+  cors: {
+    origin: ['https://pluse-link.vercel.app'],
+    methods: ['GET', 'POST', 'PATCH', 'DELETE'],
+    credentials: true,
+  },
 });
 
 // Make io accessible to routes
@@ -32,7 +36,10 @@ app.set('io', io);
 
 // Middleware
 app.use(helmet({ crossOriginResourcePolicy: false }));
-app.use(cors({ origin: env.frontendUrl, credentials: true }));
+app.use(cors({
+  origin: ['https://pluse-link.vercel.app'],
+  credentials: true,
+}));
 app.use(express.json());
 app.use(cookieParser());
 

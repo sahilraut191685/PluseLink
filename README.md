@@ -1,6 +1,6 @@
 # 🩸 PulseLink — Emergency Blood Response Platform
 
-> **Because blood shouldn't wait.**
+
 
 PulseLink is India's first real-time emergency blood dispatch system. Unlike existing blood bank directories, PulseLink acts like a **911 dispatch center for blood** — instantly coordinating donors, hospitals, and blood banks the moment an emergency is created.
 

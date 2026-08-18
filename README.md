@@ -6,7 +6,7 @@ PulseLink is India's first real-time emergency blood dispatch system. Unlike exi
 
 🔗 **Live Demo:** [pluse-link.vercel.app](https://pluse-link.vercel.app)  
 📦 **Backend:** [pluselink.onrender.com](https://pluselink.onrender.com)  
-🎥 **Demo Video:** *(add your video link here)*
+
 
 ---
 

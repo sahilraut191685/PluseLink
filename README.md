@@ -243,6 +243,4 @@ MIT License — feel free to use, modify, and distribute.
 
 ---
 
-<p align="center">
-  <strong>PulseLink — Because blood shouldn't wait.</strong>
-</p>
+
